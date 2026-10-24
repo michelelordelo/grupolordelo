@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Michele Lordêlo — CEO Grupo Lordêlo</title>
+<meta name="description" content="Michele Lordêlo, CEO Grupo Lordêlo, auditora condominial desde 2004. Audito o que ninguém audita e formo quem vai auditar.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- 1. HERO -->
+<header class="hero">
+  <video class="hero__media hero__media--bg" autoplay muted loop playsinline poster="assets/video-hero-poster.jpg">
+    <source src="assets/video-hero.webm" type="video/webm">
+    <source src="assets/video-hero.mp4" type="video/mp4">
+  </video>
+  <video class="hero__media hero__media--fg" id="heroVideo" autoplay muted loop playsinline poster="assets/video-hero-poster.jpg">
+    <source src="assets/video-hero.webm" type="video/webm">
+    <source src="assets/video-hero.mp4" type="video/mp4">
+  </video>
+  <div class="hero__scrim"></div>
+  <div class="hero__content">
+    <div class="hero__avatar">
+      <img src="assets/foto-perfil.jpg" alt="Michele Lordêlo">
+    </div>
+    <h1 class="hero__name">Michele Lordêlo</h1>
+    <p class="hero__credential">CEO Grupo Lordêlo, auditora condominial desde 2004</p>
+    <p class="hero__tagline"><span class="gold">Audito</span> o que ninguém audita e<br><span class="gold">formo</span> quem vai auditar.</p>
+  </div>
+  <a href="#bussola" class="hero__scrolldown" aria-label="Rolar para baixo">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 4v16M5 13l7 7 7-7"/></svg>
+  </a>
+</header>
+
+<main>
+
+  <!-- 2. CARD BÚSSOLA -->
+  <section class="bussola" id="bussola">
+    <div class="bussola__card reveal">
+      <div class="bussola__icon">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="9"/><path d="M14.8 9.2l-2 5.6-5.6 2 2-5.6z"/></svg>
+      </div>
+      <h2 class="bussola__title">Bússola</h2>
+      <p class="bussola__text">Encontre a solução certa para o seu momento</p>
+    </div>
+  </section>
+
+  <!-- 3. ROTEADOR -->
+  <section class="roteador" id="roteador">
+    <div class="router-grid reveal">
+
+      <div class="router-item">
+        <button class="router-box" type="button" data-panel="panel-condominios" aria-expanded="false">
+          <span class="router-box__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 10l9-6 9 6v10a1 1 0 01-1 1h-4a1 1 0 01-1-1v-5H9v5a1 1 0 01-1 1H4a1 1 0 01-1-1z"/></svg>
+          </span>
+          <span class="router-box__label">Quero auditar meu condomínio</span>
+          <svg class="router-box__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="router-panel" id="panel-condominios" hidden>
+          <a class="router-link" href="#preventiva">Auditoria Preventiva Mensal</a>
+          <a class="router-link" href="#periodo">Auditoria por Período</a>
+        </div>
+      </div>
+
+      <div class="router-item">
+        <button class="router-box" type="button" data-panel="panel-sindico" aria-expanded="false">
+          <span class="router-box__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg>
+          </span>
+          <span class="router-box__label">Quero me diferenciar como Síndico/Conselheiro</span>
+          <svg class="router-box__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="router-panel" id="panel-sindico" hidden>
+          <a class="router-link" href="#curso-auditoria">Curso de Auditoria Condominial</a>
+          <a class="router-link" href="#curso-sindico">Curso de Síndico GL</a>
+          <a class="router-link" href="#drt360">DRT360™</a>
+          <a class="router-link" href="#clube-lordelo">Clube Lordêlo GL</a>
+          <a class="router-link" href="#livro">Manual Tributário para Condomínios</a>
+        </div>
+      </div>
+
+      <div class="router-item">
+        <button class="router-box" type="button" data-panel="panel-administradora" aria-expanded="false">
+          <span class="router-box__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+          </span>
+          <span class="router-box__label">Represento uma administradora ou contabilidade</span>
+          <svg class="router-box__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="router-panel" id="panel-administradora" hidden>
+          <a class="router-link" href="#drt360">DRT360™</a>
+          <a class="router-link" href="#curso-auditoria">Curso de Auditoria Condominial</a>
+          <a class="router-link" href="#clube-lordelo">Clube Lordêlo GL</a>
+          <a class="router-link" href="#livro">Manual Tributário para Condomínios</a>
+        </div>
+      </div>
+
+      <div class="router-item">
+        <button class="router-box" type="button" data-panel="panel-auditor" aria-expanded="false">
+          <span class="router-box__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l8 4-8 4-8-4z"/><path d="M4 11v5c0 1.5 3.6 3 8 3s8-1.5 8-3v-5"/></svg>
+          </span>
+          <span class="router-box__label">Quero atuar ou crescer como auditor</span>
+          <svg class="router-box__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="router-panel" id="panel-auditor" hidden>
+          <a class="router-link" href="#curso-auditoria">Curso de Auditoria Condominial</a>
+          <a class="router-link" href="#mentoria">Mentoria Individual para Auditores</a>
+          <a class="router-link" href="#clube-lordelo">Clube Lordêlo GL</a>
+          <a class="router-link" href="#livro">Manual Tributário para Condomínios</a>
+        </div>
+      </div>
+
+      <div class="router-item">
+        <button class="router-box" type="button" data-panel="panel-empresas" aria-expanded="false">
+          <span class="router-box__icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="7" width="18" height="13" rx="1"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg>
+          </span>
+          <span class="router-box__label">Tenho MEI, empresa ou associação</span>
+          <svg class="router-box__chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 6l6 6-6 6"/></svg>
+        </button>
+        <div class="router-panel" id="panel-empresas" hidden>
+          <a class="router-link" href="#contabilidade">Contabilidade para Empresas Digital</a>
+          <a class="router-link" href="#drt360">DRT360™ Express</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 4. AUDITORIA PREVENTIVA MENSAL -->
+  <section class="block block--dark" id="preventiva">
+    <div class="block__inner reveal">
+      <div class="photo-trio">
+        <div class="photo-trio__top">
+          <img src="assets/foto-preventiva.jpg" alt="Michele Lordêlo em reunião de auditoria preventiva">
+        </div>
+        <div class="photo-trio__bottom">
+          <div class="photo-trio__square">
+            <img src="assets/foto-preventiva-2.jpg" alt="Equipe trabalhando na auditoria preventiva">
+          </div>
+          <div class="photo-trio__square">
+            <img src="assets/foto-preventiva-3.jpg" alt="Mesa de trabalho da auditoria preventiva">
+          </div>
+        </div>
+      </div>
+      <h2 class="block__title">Auditoria Preventiva Mensal</h2>
+      <p class="block__text">Um condomínio organizado na aparência pode esconder riscos nas contas, nos contratos, nos tributos e na segurança predial. O Método MGL analisa o que foi pago, quem autorizou e quais riscos a gestão não vê — antes que o problema apareça na assembleia ou no caixa.</p>
+      <a href="#" id="ctaAuditoriaPreventiva" target="_blank" rel="noopener" class="btn btn--gold">Quero uma gestão mais protegida</a>
+    </div>
+  </section>
+
+  <!-- 5. AUDITORIA POR PERÍODO -->
+  <section class="block" id="periodo">
+    <div class="block__inner reveal">
+      <div class="block__photo block__photo--wide">
+        <img src="assets/foto-periodo.jpg" alt="Auditoria por período — revisão técnica das contas">
+      </div>
+      <h2 class="block__title">Auditoria por Período</h2>
+      <p class="block__text">Mudança de síndico, encerramento de gestão ou suspeita nas contas? Revisão técnica das contas, com constatações, evidências e recomendações para decisões mais seguras.</p>
+      <a href="#" id="ctaAuditoriaPeriodo" target="_blank" rel="noopener" class="btn btn--marrom">Quero auditar um período</a>
+    </div>
+  </section>
+
+  <!-- 6. DRT360 — GRUPO (grade fixa: 2 quadrados em cima + 1 retângulo embaixo) -->
+  <section class="block block--dark" id="drt360">
+    <div class="group__inner reveal">
+      <div class="group__header">
+        <div>
+          <p class="eyebrow">DRT360™</p>
+          <h2 class="block__title">Diagnóstico da Reforma Tributária</h2>
+        </div>
+      </div>
+      <div class="drt360-grid">
+        <a href="#" id="ctaDRT360Express" target="_blank" rel="noopener" class="card-mini card-mini--square">
+          <div class="card-mini__photo">
+            <img src="assets/foto-drt360-express.jpg" alt="Michele Lordêlo — DRT360™ Express">
+            <span class="card-mini__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+          <span class="card-mini__title">DRT360™ Express</span>
+          <span class="card-mini__sub">para síndicos, gestores e administradoras</span>
+          <p class="card-mini__text">Faça você mesmo. Receba um passo a passo da Reforma Tributária que já exige decisões sobre contratos, notas fiscais, sistemas e P.O – Previsão Orçamentária.</p>
+          <span class="card-mini__cta">Preciso aplicar o DRT360™ →</span>
+        </a>
+        <a href="#" id="ctaJogoIceberg" target="_blank" rel="noopener" class="card-mini card-mini--square">
+          <div class="card-mini__photo">
+            <img src="assets/jogo-iceberg-card.png" alt="Jogo do Iceberg — DRT360™">
+            <span class="card-mini__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+          <span class="card-mini__title">Jogo do Iceberg</span>
+          <span class="card-mini__sub">teste rápido</span>
+          <p class="card-mini__text">Teste o que você já domina da Reforma Tributária.</p>
+          <span class="card-mini__cta">Quero jogar →</span>
+        </a>
+        <a href="#" id="ctaDRT360Premium" target="_blank" rel="noopener" class="card-mini card-mini--wide">
+          <div class="card-mini__photo">
+            <img src="assets/foto-drt360-premium.jpg" alt="Michele Lordêlo — DRT360™ Premium">
+            <span class="card-mini__arrow" aria-hidden="true">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+            </span>
+          </div>
+          <span class="card-mini__title">DRT360™ Premium</span>
+          <span class="card-mini__sub">para administradoras e contabilidades</span>
+          <p class="card-mini__text">Consultoria especializada para o gestor e membros da equipe, para implantação da Reforma Tributária.</p>
+          <span class="card-mini__cta">Quero saber mais sobre o Premium →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. CURSO DE AUDITORIA CONDOMINIAL -->
+  <section class="block" id="curso-auditoria">
+    <div class="block__inner reveal">
+      <div class="block__photo">
+        <img src="assets/foto-curso-auditoria.jpg" alt="Michele Lordêlo — Curso de Auditoria Condominial">
+      </div>
+      <p class="eyebrow">Curso de Auditoria Condominial (30h)</p>
+      <h2 class="block__title">Para síndicos, administradoras, auditores e conselheiros</h2>
+      <p class="block__text">O mercado precisa de profissionais que analisem além dos números.</p>
+      <a href="#" id="ctaCursoAuditoria" target="_blank" rel="noopener" class="btn btn--gold">Quero blindar a prestação de contas com auditoria</a>
+    </div>
+  </section>
+
+  <!-- 8. MENTORIA INDIVIDUAL PARA AUDITORES -->
+  <section class="block block--dark" id="mentoria">
+    <div class="block__inner reveal">
+      <div class="block__photo">
+        <img src="assets/foto-mentoria.jpg" alt="Michele Lordêlo — Mentoria Individual para Auditores">
+      </div>
+      <p class="eyebrow">Mentoria Individual para Auditores Condominiais (ao vivo)</p>
+      <h2 class="block__title">Ganhe acima de R$ 3.500 por auditoria</h2>
+      <p class="block__text">Aplicando o Método MGL, numa das profissões que mais crescem no Brasil. Para quem precisa de segurança para executar, precificar, prospectar e conquistar clientes.</p>
+      <a href="#" id="ctaMentoriaAuditor" target="_blank" rel="noopener" class="btn btn--gold">Participar do processo seletivo</a>
+    </div>
+  </section>
+
+  <!-- 9. CURSO DE SÍNDICO GL -->
+  <section class="block" id="curso-sindico">
+    <div class="block__inner reveal">
+      <div class="block__photo block__photo--landscape">
+        <img src="assets/foto-curso-sindico.jpg" alt="Michele Lordêlo com Ariane Padilha e Vander Andrade — Curso de Síndico GL">
+      </div>
+      <p class="eyebrow">Curso de Síndico GL — Gestores Líderes (80h)</p>
+      <h2 class="block__title">Formação para quem lidera a gestão condominial</h2>
+      <p class="block__text">Para síndicos, gestores e conselheiros fiscais que querem mais preparo, liderança e responsabilidade.</p>
+      <a href="#" id="ctaCursoSindicoGL" target="_blank" rel="noopener" class="btn btn--marrom">Desejo me certificar como síndico profissional</a>
+    </div>
+  </section>
+
+  <!-- 10. CLUBE LORDÊLO GL -->
+  <section class="block block--dark" id="clube-lordelo">
+    <div class="block__inner reveal">
+      <div class="block__photo block__photo--logo">
+        <img src="assets/foto-clube-lordelo.jpg" alt="Clube Lordêlo GL — Gestores Líderes">
+      </div>
+      <p class="eyebrow">Clube Lordêlo GL — mentoria em grupo</p>
+      <h2 class="block__title">Traga a pasta de um condomínio real para eu auditar com você</h2>
+      <p class="block__text">Além de atualizações exclusivas do DRT360™. Networking para síndicos, auditores, advogados e profissionais do mercado condominial — uma comunidade para não enfrentar sozinho os desafios da gestão.</p>
+      <a href="#" id="ctaClubeLordeloGL" target="_blank" rel="noopener" class="btn btn--gold">Quero conhecer o Clube</a>
+    </div>
+  </section>
+
+  <!-- 11. LIVRO -->
+  <section class="block livro" id="livro">
+    <div class="block__inner reveal">
+      <div class="livro__foto">
+        <img src="assets/foto-livro.jpg" alt="Michele Lordêlo com o livro Manual Tributário para Condomínios">
+      </div>
+      <p class="eyebrow">Livro</p>
+      <h2 class="block__title">Manual Tributário para Condomínios</h2>
+      <p class="block__text">Conteúdo técnico e direto sobre tributação e análise de notas fiscais em condomínios.</p>
+      <a href="https://pay.hotmart.com/N61139937W?bid=1788232586199" id="ctaLivro" target="_blank" rel="noopener" class="btn btn--marrom">Quero o livro</a>
+    </div>
+  </section>
+
+  <!-- 12. CONTABILIDADE — GRUPO COM CARROSSEL -->
+  <section class="block block--dark" id="contabilidade">
+    <div class="group__inner reveal">
+      <div class="group__header">
+        <div>
+          <p class="eyebrow">Para empresas, MEIs e associações</p>
+          <h2 class="block__title">Contabilidade para Empresas Digital</h2>
+        </div>
+        <div class="group__nav">
+          <button type="button" class="group__arrow" data-dir="-1" aria-label="Anterior" data-carousel="carousel-contabilidade">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+          </button>
+          <button type="button" class="group__arrow" data-dir="1" aria-label="Próximo" data-carousel="carousel-contabilidade">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+      </div>
+      <div class="carousel carousel--cards" id="carousel-contabilidade">
+        <a href="#" id="ctaContabilidadeEmpresarial" target="_blank" rel="noopener" class="card-mini">
+          <div class="card-mini__photo">
+            <img src="assets/foto-contabilidade.jpg" alt="Michele Lordêlo — Contabilidade para Empresas Digital">
+          </div>
+          <span class="card-mini__title">Contabilidade para Empresas Digital</span>
+          <span class="card-mini__sub">MEIs, síndicos, prestadores, fornecedores e associações</span>
+          <p class="card-mini__text">Folha de pagamento, gestão da renda do empresário/sócio, gestão tributária com base na nova reforma e classificação contábil.</p>
+          <span class="card-mini__cta">Falar sobre contabilidade →</span>
+        </a>
+        <a href="#" id="ctaPNCT" target="_blank" rel="noopener" class="card-mini">
+          <div class="card-mini__photo">
+            <img src="assets/foto-pnct.jpg" alt="Michele Lordêlo — PNCT">
+          </div>
+          <span class="card-mini__title">PNCT</span>
+          <span class="card-mini__sub">Programa Nacional de Conformidade Tributária</span>
+          <p class="card-mini__text">Evite que notas fiscais de empresas, condomínios e associações sejam rejeitadas com a Reforma Tributária.</p>
+          <span class="card-mini__cta">Preciso que a Lordêlo revise isso para mim →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. CONSULTORIAS -->
+  <section class="block" id="consultorias">
+    <div class="block__inner reveal">
+      <div class="block__photo">
+        <img src="assets/foto-consultorias.jpg" alt="Michele Lordêlo — Consultorias">
+      </div>
+      <h2 class="block__title">Consultorias</h2>
+      <p class="block__text">Decisões importantes exigem mais do que opinião. Orientação técnica para contratos, prestação de contas, conformidade e situações específicas da gestão condominial, contábil e tributária.</p>
+      <a href="#" id="ctaConsultorias" target="_blank" rel="noopener" class="btn btn--marrom">Falar com uma especialista</a>
+    </div>
+  </section>
+
+  <!-- 14. POR QUE GRUPO LORDÊLO -->
+  <section class="block block--dark" id="por-que">
+    <div class="block__inner reveal">
+      <p class="eyebrow">Por que Grupo Lordêlo?</p>
+      <p class="block__text">Mais de duas décadas em auditoria condominial, com uma metodologia própria que une análise contábil-financeira, contratos, tributos, governança e segurança de pessoas e patrimônio.</p>
+    </div>
+  </section>
+
+  <!-- 15. DRA. MICHELE LORDÊLO -->
+  <section class="block" id="michele">
+    <div class="block__inner reveal">
+      <div class="block__photo block__photo--avatar">
+        <img src="assets/foto-michele.jpg" alt="Dra. Michele Lordêlo">
+      </div>
+      <h2 class="block__title">Dra. Michele Lordêlo</h2>
+      <p class="block__text">Contadora, doutora em Educação, conselheira do CRC-BA, professora e fundadora do Grupo Lordêlo. Criadora do Método MGL e referência em auditoria e educação para o mercado condominial.</p>
+    </div>
+  </section>
+
+  <!-- 16. PALESTRAS -->
+  <section class="block block--dark" id="palestras">
+    <div class="block__inner reveal">
+      <div class="block__photo">
+        <img src="assets/foto-palestras.jpg" alt="Michele Lordêlo palestrando">
+      </div>
+      <h2 class="block__title">Palestras</h2>
+      <p class="block__text">Quer que eu esteja no seu evento, falando sobre auditoria, reforma tributária e conformidade?</p>
+      <a href="#" id="ctaPalestras" target="_blank" rel="noopener" class="btn btn--gold">Fale com nossa assessoria agora</a>
+    </div>
+  </section>
+
+  <!-- 17. CONTEÚDOS GRATUITOS -->
+  <section class="block" id="gratis">
+    <div class="block__inner reveal">
+      <p class="eyebrow">Conteúdos gratuitos</p>
+      <h2 class="block__title">Aprenda sem custo</h2>
+      <div class="carousel">
+        <a href="#" id="linkMaterialGratuito1" target="_blank" rel="noopener" class="carousel__item carousel__item--photo">
+          <div class="carousel__item-photo">
+            <img src="assets/foto-podcast.jpg" alt="Podcast Cadê o Síndico — Michele Lordêlo">
+          </div>
+          <span class="carousel__item-title">Podcast do Cadê o Síndico</span>
+        </a>
+        <a href="#" id="linkCondcomunica" target="_blank" rel="noopener" class="carousel__item carousel__item--photo">
+          <div class="carousel__item-photo">
+            <img src="assets/foto-condcomunica.jpg" alt="Condcomunica — Bahia Notícias com Michele Lordêlo">
+          </div>
+          <span class="carousel__item-title">Condcomunica — Bahia Notícias</span>
+        </a>
+        <a href="#" id="linkRadarImobiliario" target="_blank" rel="noopener" class="carousel__item carousel__item--photo">
+          <div class="carousel__item-photo">
+            <img src="assets/foto-radar-imobiliario.jpg" alt="Radar Imobiliário com Michele Lordêlo">
+          </div>
+          <span class="carousel__item-title">Radar Imobiliário</span>
+        </a>
+        <a href="#" id="linkColunistaRevista" target="_blank" rel="noopener" class="carousel__item carousel__item--photo">
+          <div class="carousel__item-photo">
+            <img src="assets/foto-colunista-revista.jpg" alt="Michele Lordêlo colunista da revista Cadê o Síndico">
+          </div>
+          <span class="carousel__item-title">Colunista de Revista</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 18. AINDA NÃO SABE QUAL SOLUÇÃO ESCOLHER -->
+  <section class="block block--dark" id="fale-conosco">
+    <div class="block__inner reveal">
+      <h2 class="block__title">Ainda não sabe qual solução escolher?</h2>
+      <p class="block__text">Conte o momento do seu condomínio, da sua empresa ou da sua carreira — nossa equipe indica o caminho certo para você.</p>
+      <a href="#" id="ctaFalarComGrupo" target="_blank" rel="noopener" class="btn btn--gold">Falar com o Grupo Lordêlo</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- 19. RODAPÉ -->
+<footer class="rodape">
+  <div class="rodape__social">
+    <a href="#" id="linkInstagram" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="1"/></svg>
+    </a>
+    <a href="#" id="linkWhatsappFooter" target="_blank" rel="noopener" aria-label="WhatsApp">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20 12a8 8 0 10-14.6 4.6L4 20l3.6-1.3A8 8 0 0020 12z"/><path d="M8.5 9.5c.3 2.7 2.3 4.7 5 5l1-1.3c.1-.2.4-.3.6-.2l2 .8c.3.1.4.4.3.6-.4 1.1-1.5 1.8-2.7 1.7-3.6-.3-6.5-3.2-6.8-6.8-.1-1.2.6-2.3 1.7-2.7.2-.1.5 0 .6.3l.8 2c.1.2 0 .5-.2.6z"/></svg>
+    </a>
+  </div>
+  <a href="https://www.grupolordelo.com.br" target="_blank" rel="noopener" class="rodape__site">www.grupolordelo.com.br</a>
+  <p class="rodape__copy">© 2026 Grupo Lordêlo</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

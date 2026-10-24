@@ -1,0 +1,52 @@
+ATUALIZAÇÃO — fotos novas, logomarca no avatar e links do rodapé
+====================================================================
+
+O QUE MUDOU NESTA RODADA
+-------------------------
+- Dra. Michele Lordêlo: foto trocada.
+- Curso de Auditoria Condominial: foto trocada (foto simples sua no
+  escritório, sem composição).
+- Rodapé: adicionado o link de texto "www.grupolordelo.com.br", em dourado,
+  entre os ícones sociais e o copyright.
+- Avatar circular do topo (bolinha acima do seu nome "Michele Lordêlo"):
+  trocado pela logomarca oficial do Grupo Lordêlo (ícone "L"+"G" dourado/
+  prata, extraído do PDF vetorial que você enviou).
+- Ícone do Instagram no rodapé: agora aponta para
+  https://www.instagram.com/michelelordelogl/
+- Ícone do WhatsApp no rodapé: confirmado que já aponta para o número
+  5571996179300 (não precisou mudar).
+
+Todas as mudanças passaram por checagem automatizada (várias telas:
+celular, tablet, desktop) antes de entrar aqui — fotos bem enquadradas,
+sem distorção, links conferidos, sem quebra em nenhuma outra parte da
+página.
+
+COMO APLICAR NO SEU REPOSITÓRIO DO GITHUB
+-------------------------------------------
+1. Abra o repositório do site no github.com (o mesmo que você já usa pra
+   publicar a bio).
+2. Substitua estes arquivos, um por um (clique no arquivo → ícone de lápis
+   "Edit" → apague o conteúdo → cole o novo, OU arraste os arquivos novos
+   direto pra pasta do repositório na tela principal do GitHub, que ele
+   detecta e oferece pra substituir os de mesmo nome):
+   - index.html
+   - style.css
+   - script.js
+   - toda a pasta assets/ (tem fotos novas: foto-michele.jpg,
+     foto-curso-auditoria.jpg, foto-perfil.jpg)
+3. Depois de subir, clique em "Commit changes" (ou "Commit directly to the
+   main branch") pra confirmar.
+4. Se o repositório já estiver conectado à Vercel, a publicação acontece
+   sozinha em 1-2 minutos depois do commit — não precisa fazer mais nada
+   na Vercel.
+
+SOBRE O DOMÍNIO michele.grupolordelo.com.br
+----------------------------------------------
+Esse endereço hoje está apontando para o WordPress. Pra ele passar a
+mostrar esse site novo (depois que o repositório estiver conectado à
+Vercel), você vai precisar trocar o registro de DNS do subdomínio
+"michele" pra apontar pro Vercel, em vez de desligar o WordPress do
+domínio inteiro — o resto do grupolordelo.com.br continua no WordPress
+normalmente. Se quiser ajuda nesse passo específico, me avisa onde você
+consegue mexer no DNS (painel de hospedagem, Registro.br, Cloudflare etc.)
+que eu te guio.
